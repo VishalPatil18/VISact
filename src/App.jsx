@@ -3,35 +3,37 @@ import "./App.css";
 
 import { useState } from "react";
 
-export default function App() {
-  const [alertDisplay, setToastDisplay] = useState("none");
+const App = () => {
+  const [alertDisplay, setAlertDisplay] = useState("none");
   const alertHandler = () => {
-    setToastDisplay("flex");
+    setAlertDisplay("flex");
     setTimeout(() => {
-      setToastDisplay("none");
+      setAlertDisplay("none");
     }, 5000);
   };
 
   const closeHandler = () => {
-    setToastDisplay("none");
+    setAlertDisplay("none");
   };
 
   return (
     <div className="App">
       <button className="button btn-solid-primary" onClick={alertHandler}>
-        Show Alert
+        Show Sample Solid Danger Alert
       </button>
       {alertDisplay !== "none" && (
         <Alert
           variant="wicon"
-          action="success"
+          action="danger"
           position="top-right"
+          theme="solid-danger"
           closeHandler={closeHandler}
-          theme="solid-success"
         >
-          Login Successful
+          Login Failed
         </Alert>
       )}
     </div>
   );
-}
+};
+
+export default App;
