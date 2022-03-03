@@ -1,0 +1,59 @@
+/* BASIC */
+.avatar {
+  height: 50px;
+  width: 50px;
+}
+
+/* TEXT VARIANT */
+.av-text {
+  align-items: center;
+  display: flex;
+  font-size: var(--fs-xs-1);
+  font-weight: var(--fw-500);
+  justify-content: center;
+  padding: var(--space-xs);
+  text-transform: uppercase;
+}
+
+/* AVATAR SIZES */
+.av-xs {
+  height: 25px;
+  width: 25px;
+}
+
+.av-sm {
+  font-size: var(--fs-sm-1);
+  height: 40px;
+  width: 40px;
+}
+
+.av-md {
+  font-size: var(--fs-md-1);
+  height: 50px;
+  width: 50px;
+}
+
+.av-lg {
+  font-size: var(--fs-lg-1);
+  height: 70px;
+  width: 70px;
+}
+
+.av-xl {
+  font-size: var(--fs-xl-1);
+  height: 90px;
+  width: 90px;
+}
+
+/* AVATAR SHAPES */
+.av-square {
+  border-radius: 0;
+}
+
+.av-rounded {
+  border-radius: var(--br-xs);
+}
+
+.av-circle {
+  border-radius: var(--br-full);
+}
