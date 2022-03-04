@@ -91,7 +91,7 @@
 }
 
 .btn-action-twitter:hover {
-  background-color: #0390e2;
+  background-color: var(--primary-dark);
 }
 
 .btn-action-linkedin,
@@ -102,7 +102,7 @@
 
 .btn-action-linkedin:hover,
 .btn-action-facebook:hover {
-  background-color: #0c4997;
+  background-color: var(--secondary-dark);
 }
 
 .btn-action-instagram {
@@ -111,7 +111,7 @@
 }
 
 .btn-action-instagram:hover {
-  background-color: #b80a2d;
+  background-color: var(--danger-dark);
 }
 
 .btn-action-github,
@@ -131,7 +131,7 @@
 }
 
 .btn-action-whatsapp:hover {
-  background-color: #339957;
+  background-color: var(--success-dark);
 }
 
 /* OUTLINE */

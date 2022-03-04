@@ -1,0 +1,84 @@
+.chip {
+  align-items: center;
+  background-color: var(--light);
+  color: var(--dark);
+  cursor: default;
+  display: flex;
+  font-size: var(--fs-xs-1);
+  justify-content: center;
+  margin: var(--space-xxs);
+  padding: var(--space-xxs) var(--space-xs);
+  transition: background-color 0.2s ease-in-out;
+  width: fit-content;
+}
+
+.chip:hover {
+  background-color: var(--primary);
+}
+
+.chip > svg {
+  margin: 0 var(--space-xxs);
+}
+
+.chip .close-btn {
+  cursor: pointer;
+  margin-right: 0;
+}
+
+/* SHAPE */
+.ch-sharp {
+  border-radius: initial;
+}
+
+.ch-square {
+  border-radius: var(--br-xxs);
+}
+
+.ch-rounded {
+  border-radius: var(--br-full);
+}
+
+/* THEMES */
+.ch-primary {
+  background-color: var(--primary);
+  color: var(--white);
+}
+
+.ch-primary:hover {
+  background-color: var(--primary-dark);
+}
+
+.ch-success {
+  background-color: var(--success);
+  color: var(--white);
+}
+
+.ch-success:hover {
+  background-color: var(--success-dark);
+}
+
+.ch-danger {
+  background-color: var(--danger);
+  color: var(--white);
+}
+
+.ch-danger:hover {
+  background-color: var(--danger-dark);
+}
+
+.ch-warning {
+  background-color: var(--warning);
+}
+
+.ch-warning:hover {
+  background-color: var(--warning-dark);
+}
+
+.ch-dark {
+  background-color: var(--dark);
+  color: var(--white);
+}
+
+.ch-dark:hover {
+  background-color: var(--black);
+}
