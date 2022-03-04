@@ -1,0 +1,257 @@
+/* BASIC */
+.button {
+  align-items: center;
+  background-color: white;
+  border: none;
+  box-shadow: var(--bs-xxs);
+  color: var(--dark);
+  cursor: pointer;
+  display: flex;
+  font-size: var(--fs-sm-1);
+  justify-content: center;
+  padding: var(--space-xxs) var(--space-xs);
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out,
+    box-shadow 0.2s ease-in-out, underline 0.2s ease-in-out;
+}
+
+.button > svg {
+  font-size: var(--fs-sm-1);
+  margin: 0 var(--space-xxxs);
+}
+
+.button:hover {
+  box-shadow: var(--bs-xs);
+}
+
+/* SMALL */
+.btn-sm {
+  font-size: var(--fs-xs-1);
+  padding: var(--space-xxxs) var(--space-xxs);
+}
+
+/* MEDIUM */
+.btn-md {
+  font-size: var(--fs-xs-2);
+}
+
+/* LARGE */
+.btn-lg {
+  font-size: var(--fs-sm-1);
+  padding: var(--space-xs) var(--space-md);
+}
+
+/* LINK */
+.btn-link {
+  background-color: initial;
+  box-shadow: initial;
+}
+
+.btn-link:hover {
+  box-shadow: initial;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+/* SHARP BUTTON */
+.btn-sharp {
+  border-radius: initial;
+}
+
+/* SQUARE BUTTON */
+.btn-square {
+  border-radius: var(--br-xxs);
+}
+
+/* ROUNDED BUTTON */
+.btn-rounded {
+  border-radius: var(--br-full);
+}
+
+/* ACTION BUTTON */
+.btn-action {
+  border-radius: var(--br-full);
+  height: 50px;
+  padding: 0;
+  width: 50px;
+}
+
+.btn-action:hover {
+  box-shadow: var(--bs-sm);
+}
+
+.btn-action > svg {
+  font-size: var(--fs-sm-2);
+  margin: 0;
+}
+
+/* SOCIAL MEDIA */
+.btn-action-twitter {
+  background-color: var(--primary);
+  color: white;
+}
+
+.btn-action-twitter:hover {
+  background-color: #0390e2;
+}
+
+.btn-action-linkedin,
+.btn-action-facebook {
+  background-color: var(--secondary);
+  color: white;
+}
+
+.btn-action-linkedin:hover,
+.btn-action-facebook:hover {
+  background-color: #0c4997;
+}
+
+.btn-action-instagram {
+  background-color: var(--danger);
+  color: white;
+}
+
+.btn-action-instagram:hover {
+  background-color: #b80a2d;
+}
+
+.btn-action-github,
+.btn-action-medium {
+  background-color: var(--dark);
+  color: white;
+}
+
+.btn-action-github:hover,
+.btn-action-medium:hover {
+  background-color: var(--black);
+}
+
+.btn-action-whatsapp {
+  background-color: var(--success);
+  color: white;
+}
+
+.btn-action-whatsapp:hover {
+  background-color: #339957;
+}
+
+/* OUTLINE */
+.btn-outline-primary {
+  border: 2px solid var(--primary);
+  box-shadow: none;
+  color: var(--primary);
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--primary);
+  color: white;
+}
+
+.btn-outline-secondary {
+  border: 2px solid var(--secondary);
+  box-shadow: none;
+  color: var(--secondary);
+}
+
+.btn-outline-secondary:hover {
+  background-color: var(--secondary);
+  color: white;
+}
+
+.btn-outline-danger {
+  border: 2px solid var(--danger);
+  box-shadow: none;
+  color: var(--danger);
+}
+
+.btn-outline-danger:hover {
+  background-color: var(--danger);
+  color: white;
+}
+
+.btn-outline-success {
+  border: 2px solid var(--success);
+  box-shadow: none;
+  color: var(--success);
+}
+
+.btn-outline-success:hover {
+  background-color: var(--success);
+  color: white;
+}
+
+.btn-outline-warning {
+  border: 2px solid var(--warning);
+  box-shadow: none;
+  color: var(--warning);
+}
+
+.btn-outline-warning:hover {
+  background-color: var(--warning);
+  color: var(--dark);
+}
+
+.btn-outline-dark {
+  border: 2px solid var(--dark);
+  box-shadow: none;
+  color: var(--dark);
+}
+
+.btn-outline-dark:hover {
+  background-color: var(--dark);
+  color: white;
+}
+
+/* SOLID BUTTONS */
+.btn-solid-primary {
+  background-color: var(--primary);
+  color: white;
+}
+
+.btn-solid-primary:hover {
+  background-color: #0390e2;
+}
+
+.btn-solid-secondary {
+  background-color: var(--secondary);
+  color: white;
+}
+
+.btn-solid-secondary:hover {
+  background-color: #0c4997;
+}
+
+.btn-solid-danger {
+  background-color: var(--danger);
+  color: white;
+}
+
+.btn-solid-danger:hover {
+  background-color: #b80a2d;
+}
+
+.btn-solid-success {
+  background-color: var(--success);
+  color: white;
+}
+
+.btn-solid-success:hover {
+  background-color: #339957;
+}
+
+.btn-solid-warning {
+  background-color: var(--warning);
+  color: var(--dark);
+}
+
+.btn-solid-warning:hover {
+  background-color: #ccaf20;
+}
+
+.btn-solid-dark {
+  background-color: var(--dark);
+  color: white;
+}
+
+.btn-solid-dark:hover {
+  background-color: var(--black);
+}
