@@ -26,7 +26,6 @@ const Button = ({
   shape = "square",
   children,
 }) => {
-  console.log(children);
   return (
     <>
       <button
