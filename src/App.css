@@ -1,4 +1,7 @@
 .App {
   text-align: center;
   position: relative;
+  display: grid;
+  place-items: center;
+  height: 100vh;
 }

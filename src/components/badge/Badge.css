@@ -1,0 +1,97 @@
+/* BASIC */
+.badge-container {
+  position: relative;
+}
+
+.badge {
+  border-radius: var(--br-full);
+  position: absolute;
+  right: -15px;
+  top: -10px;
+}
+
+/* BADGE SMALL */
+.bdg-sm {
+  height: 12px;
+  width: 12px;
+}
+
+/* BADGE MEDIUM */
+.bdg-md {
+  height: 16px;
+  width: 16px;
+}
+
+/* BADGE LARGE */
+.bdg-lg {
+  height: 20px;
+  width: 20px;
+}
+
+/* BADGE COLORS */
+.bdg-primary {
+  background-color: var(--primary);
+}
+
+.bdg-success {
+  background-color: var(--success);
+}
+
+.bdg-danger {
+  background-color: var(--danger);
+}
+
+.bdg-warning {
+  background-color: var(--warning);
+  color: var(--dark);
+}
+
+.bdg-dark {
+  background-color: var(--dark);
+}
+
+/* NUMERIC BADGE */
+.bdg-numeric {
+  color: white;
+  font-size: var(--fs-xs-1);
+  font-weight: var(--fw-500);
+  height: fit-content;
+  padding: 3px 6px;
+  text-align: center;
+  width: fit-content;
+}
+
+/* SOLID BADGE */
+.bdg-solid {
+  border: 2px solid white;
+  bottom: 0px;
+  padding: 0px;
+  right: 0px;
+  top: initial;
+}
+
+/* OUTLINE BADGE */
+.bdg-outline {
+  background-color: initial;
+  border: 4px solid var(--primary);
+  height: calc(100% + 8px);
+  left: -4px;
+  top: -4px;
+  width: calc(100% + 8px);
+}
+
+.bdg-outline-danger {
+  border-color: var(--danger);
+}
+
+.bdg-outline-success {
+  border-color: var(--success);
+}
+
+.bdg-outline-warning {
+  border-color: var(--warning);
+}
+
+.bdg-outline-dark {
+  border-color: var(--dark);
+}
