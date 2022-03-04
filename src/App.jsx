@@ -1,24 +1,65 @@
-import { Badge } from "./components/badge/Badge";
-import { Avatar } from "./components/avatar/Avatar";
+import { Button } from "./components/button/Button";
+import { Icon } from "@iconify/react";
+import { icons } from "./utilities/icons";
 import "./App.css";
 
 const App = () => {
   return (
     <div className="App">
-      <button className="badge-container">
-        Button
-        <Badge variant="numeric" value="12+" />
-      </button>
-
-      <div className="badge-container">
-        <Avatar variant="img" />
-        <Badge variant="solid" themeColor="success" />
+      <Button size="sm">btn-sm</Button>
+      <Button size="md">btn-md</Button>
+      <Button size="lg">btn-lg</Button>
+      <Button variant="link">Link</Button>
+      <Button theme="solid-primary">
+        <Icon icon={icons.login} />
+        Login
+      </Button>
+      <Button theme="solid-primary">
+        Add to Cart
+        <Icon icon={icons.cart} />
+      </Button>
+      <Button theme="solid-primary" shape="sharp"> 
+        Sharp
+      </Button>
+      <Button theme="solid-primary" shape="square">
+        Square
+      </Button>
+      <Button theme="solid-primary" shape="rounded">
+        Rounded
+      </Button>
+      <Button variant="action" theme="solid-primary">
+        <Icon icon={icons.plus} />
+      </Button>
+      <div style={{display: "flex", gap:"var(--space-xs)"}}>
+        <Button variant="action" theme="action-twitter">
+          <Icon icon={icons.twitter} />
+        </Button>
+        <Button variant="action" theme="action-linkedin">
+          <Icon icon={icons.linkedin} />
+        </Button>
+        <Button variant="action" theme="action-instagram">
+          <Icon icon={icons.instagram} />
+        </Button>
+        <Button variant="action" theme="action-facebook">
+          <Icon icon={icons.facebook} />
+        </Button>
+        <Button variant="action" theme="action-github">
+          <Icon icon={icons.github} />
+        </Button>
+        <Button variant="action" theme="action-medium">
+          <Icon icon={icons.medium} />
+        </Button>
+        <Button variant="action" theme="action-whatsapp">
+          <Icon icon={icons.whatsapp} />
+        </Button>
       </div>
-
-      <div className="badge-container">
-        <Avatar variant="img" />
-        <Badge variant="outline" themeColor="danger" />
-      </div>
+      <Button theme="outline-secondary" shape="square">
+        Outline Secondary
+      </Button>
+      <Button theme="solid-dark" shape="square">
+        Solid Danger
+      </Button>
+      
     </div>
   );
 };

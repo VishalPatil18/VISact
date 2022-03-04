@@ -15,16 +15,27 @@
 const icons = {
   /****** UTILITY CLICKABLES ******/
   close: "fa-solid:times",
+  login: "entypo:login",
+  logout: "mdi:logout",
+  plus: "fa-solid:plus",
+  cart: "clarity:shopping-cart-solid",
 
   /****** THEMED ******/
-  success: "fa-solid:check-circle",
-  info: "fa-solid:info-circle",
   danger: "fa:ban",
+  info: "fa-solid:info-circle",
+  success: "fa-solid:check-circle",
   warning: "fa:exclamation-triangle",
 
   /****** BRANDS ******/
-  twitterWithCircle: "entypo-social:twitter-with-circle",
+  facebook: "fa-brands:facebook-f",
+  github: "fa-brands:github",
+  instagram: "fa6-brands:instagram",
+  linkedin: "fa-brands:linkedin-in",
   linkedinWithCircle: "entypo-social:linkedin-with-circle",
+  medium: "fa-brands:medium-m",
+  twitter: "fa-brands:twitter",
+  twitterWithCircle: "entypo-social:twitter-with-circle",
+  whatsapp: "fa6-brands:whatsapp",
 };
 
 export {  icons  };
