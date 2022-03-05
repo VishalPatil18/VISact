@@ -84,15 +84,21 @@ select {
 */
 :root {
   /* THEME COLORS */
+  --black: #000000;
+  --danger-dark: #b80a2d;
   --danger: #ff3860;
   --dark: #263238;
-  --warning: #fde047;
+  --light-dark: #c4d1df;
   --light: #e9f3fd;
+  --primary-dark: #0390e2;
   --primary: #23a6f0;
+  --secondary-dark: #0c4997;
   --secondary: #0f56b3;
+  --success-dark: #339957;
   --success: #48c774;
+  --warning-dark: #c9ac1a;
+  --warning: #fde047;
   --white: #ffffff;
-  --black: #000000;
 
   /* BORDER RADIUS */
   --br: 0.4rem;
